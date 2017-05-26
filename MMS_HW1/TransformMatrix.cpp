@@ -1,4 +1,4 @@
-#define _USE_MATH_DEFINES
+Ôªø#define _USE_MATH_DEFINES
 #include <iostream>
 #include <cmath>
 #include <vector>
@@ -12,7 +12,7 @@ vector<vector<double>> rx, ry, rz;
 * convert degree to radins.
 */
 double convertDegreeToRadians(double degree){
-	double rad = degree * M_PI / 180.0;//≠n•Œ PI, ∞£§F≠n include cmath°A¡Ÿ≠n define _USE_MATH_DEFINES
+	double rad = degree * M_PI / 180.0;//Ë¶ÅÁî® PI, Èô§‰∫ÜË¶Å include cmathÔºåÈÇÑË¶Å define _USE_MATH_DEFINES
 	return rad;
 }
 
